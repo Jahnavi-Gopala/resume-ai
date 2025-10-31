@@ -73,7 +73,7 @@ const upload = () => {
 
         setStatusText('Analysis complete, redirecting...');
         console.log(data);
-        // navigate(`/resume/${uuid}`);
+        navigate(`/resume/${uuid}`);
     }
     const handleFileSelect = (file: File | null) => {
         setFile(file);
